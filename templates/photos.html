@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+	<h3>Original Frame</h3>
+		{{original}}
+	</br></br>
+	<h3>Thresholded Image</h3>
+		{{threshold}}
+	</br></br>
+	<h3>cropped region</h3>
+		{{cropped_frame}}
+	</br></br>
+
+	<h4>White pixels</h4>
+		{{wpix}}
+	</br>
+	<h4>Black pixels</h4>
+		{{bpix}}
+	</br>
+	<h4>Percent of black pixels</h4>
+		{{perb}}
+	</br>
+	<h4>Concentration of Cells</h4>
+		{{conc}}
+{% endblock %}
