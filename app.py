@@ -91,7 +91,7 @@ def calculate_object_area(image):
     Percentage_of_black_pix = (total_black_pix / total_pix) * 100
     
     whole_number = percent_of_black_pix * 100
-    conc = whole_number/0.008
+    conc = whole_number/0.0017
     
     print("Number of Black pixels", total_black_pix)
     print("Total pixels:", total_pix)
