@@ -157,7 +157,7 @@ def capture_photo():
     percent_of_black_pix = (total_black_pix / total_pix) * 100
 
     decimal_reducer = percent_of_black_pix * 100
-    conc = decimal_reducer/0.008
+    conc = decimal_reducer/0.0017
 
 
     # Display the original frame and the thresholded image
